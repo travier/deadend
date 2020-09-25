@@ -1,0 +1,15 @@
+[package]
+name = "deadend"
+license = "Apache-2.0"
+version = "0.1.0"
+authors = ["Timothée Ravier"]
+edition = "2018"
+
+[dependencies]
+env_logger = "^0.7"
+failure = "^0.1"
+log = "^0.4"
+structopt = "^0.3"
+tempfile = "^3.1"
+zbus = "^1.1.1"
+zvariant = "^2.2.0"
